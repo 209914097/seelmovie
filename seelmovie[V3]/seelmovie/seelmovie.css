@@ -71,21 +71,23 @@ input:hover {
 }
 
 #msg{
-	position:absolute;
-	top:710px;
-	margin:0 4.8% ; 
-	width: 90%;
-	min-width: 888px;
+	position: absolute;
+    top: 550px;
+    margin: 0 4.8%;
+    width: 90%;
+    min-width: 888px;
+    margin-top: 15%;
 }
 	
 /* 背景大图 */
 
 .bg{
-	height:700px;	
+	height: 100%;
     width: 100%;
     padding: 0;
     position: absolute;
-	min-width: 1000px;
+    min-width: 1000px;
+    min-height: 600px;
 }
 .bg h1{
 	
