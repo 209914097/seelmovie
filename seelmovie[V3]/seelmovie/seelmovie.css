@@ -1,4 +1,4 @@
-﻿body{
+body{
 	font-family: 微软雅黑;
 	background-color:rgba(234, 234, 234, 0.5);
 	margin: 0px;
@@ -85,6 +85,7 @@ input:hover {
     width: 100%;
     padding: 0;
     position: absolute;
+	min-width: 1000px;
 }
 .bg h1{
 	
@@ -110,7 +111,7 @@ input:hover {
 .overlay{
 	
 	
-	background: rgba(0,0,0,0.4);
+	/*background: rgba(0,0,0,0.4);*/
 }
 .text{
 	
