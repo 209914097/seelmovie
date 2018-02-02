@@ -71,23 +71,21 @@ input:hover {
 }
 
 #msg{
-	position: absolute;
-    top: 550px;
-    margin: 0 4.8%;
-    width: 90%;
-    min-width: 888px;
-    margin-top: 15%;
+	position:absolute;
+	/*top:710px;*/ /* top用jquery脚本动态设定 */
+	margin:0 4.8% ; 
+	width: 90%;
+	min-width: 888px;
 }
 	
 /* 背景大图 */
 
 .bg{
-	height: 100%;
+	/* heigh用jquery脚本动态设定 */	
     width: 100%;
     padding: 0;
     position: absolute;
-    min-width: 1000px;
-    min-height: 600px;
+	min-width: 1000px;
 }
 .bg h1{
 	
@@ -109,6 +107,7 @@ input:hover {
 .bg img{
 	height:100%;
 	width:100%;
+	position:absolute;
 }	
 .overlay{
 	
