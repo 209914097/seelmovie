@@ -1,5 +1,5 @@
 <!DOCTYPE html >
-<!--版本号v3-->
+<!--版本号v3.2-->
 <html >
 <head>
 <title></title>
@@ -21,8 +21,9 @@
 <h1>Seel Movie</h1>	
 <p>人生如戏 戏如人生</p>
 </div>	
-<div class="bg overlay"><img src="./img/light.png"></img></div>
 <img src="./img/12.gif"></img>
+<img src="./img/light.png"></img>
+
 </div>     
      
     
@@ -47,6 +48,28 @@ var pos = 0,
 		  ticking = false;
 	 }
 	});
+	//根据浏览器窗口，动态调整css尺寸
+	var screen_height=$(window).height();
+	if(screen_height > 700){
+	$("#background").css("height",screen_height+"px");
+	$("#msg").css("top",screen_height+10+"px");
+	}
+	else{
+	$("#background").css("height","700px");
+	$("#msg").css("top","710px");
+	}
+	//根据浏览器窗口，动态调整css尺寸
+	$(window).resize(function(){
+	screen_height=$(window).height();
+	if(screen_height > 700){
+	$("#background").css("height",screen_height+"px");
+	$("#msg").css("top",screen_height+10+"px");
+	}
+	else{
+	$("#background").css("height","700px");
+	$("#msg").css("top","710px");
+	}
+	})
 	
 });
 
